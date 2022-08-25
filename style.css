@@ -7,6 +7,7 @@
 body {
     font-family: "Ubuntu", sans-serif;
     background-color: #F0EBE3;
+    min-height: 100vh;
 }
 
 .main-wrap {
@@ -19,6 +20,9 @@ body {
 }
 
 .text-align-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -40,19 +44,41 @@ body {
 }
 
 .err-404-wd {
-    font-size: 80px;
+    font-size: 9vh;
     font-weight: bold;
     color: #576F72;
 }
 
 .desc-wd {
     font-size: 25px;
+    font-weight: 350;
+    line-height: 35px;
     color: #7D9D9C;
 }
 
 .btm-link {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
+    margin-top: 20px;
+}
+
+.bk-to-hp-link {
+    text-decoration: none;
+}
+
+.bk-to-hp-wd {
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #576F72;
+    font-size: 16px;
+    color: #F0EBE3;
+}
+
+.vt-hc-wd {
+    color: #576F72;
+    font: 16px;
 }
 
