@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #F0EBE3;
+}
+
+.main-wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-align-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.set-margin {
+    margin: 5px 0px
+}
+
+.pg-nt-fn-wd {
+    width: 150px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #E4DCCF;
+    color: #576F72;
+    padding: 10px 0;
+}
+
+.err-404-wd {
+    font-size: 80px;
+    font-weight: bold;
+    color: #576F72;
+}
+
+.desc-wd {
+    font-size: 25px;
+    color: #7D9D9C;
+}
+
+.btm-link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
